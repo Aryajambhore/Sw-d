@@ -1,0 +1,137 @@
+/* SW&D.css */
+body, button, header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  top: 0;
+}   
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 80px;
+    padding: 20px 80px;
+    background : #def2d4;
+    box-shadow: 0 4px 6px 0 rgba(7, 15, 0, 0.1);
+}
+.logo{
+    height: 70px;
+    width: 70px;
+  margin: 20px;
+  padding: 20px;
+}
+.head{
+   width: 80%;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav li{
+    list-style: none;
+    padding: 0 18px;
+}
+#nav li a{
+    text-decoration: none;
+    color: #371e03;
+    font-size: 18px;
+    font-weight: 200;
+}
+#nav li a:hover{
+    transition: 0.4s ease;
+    color: #eca156;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    align-items: relative;
+    justify-content: space-between;
+    padding: 20px;
+}
+#main:hover{
+    transition: 0.4s ease;
+    background-color: #dfdaae;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.5rem;
+}
+.quote{
+    font-style: italic;
+    font-size: 1.rem;
+    font-weight: 600;
+    color: #b76a12;
+}
+.pic3{
+    height: 50%;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: #371e03;
+}
+#alliance{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: relative;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+#alliance:hover{
+    transition: 0.4s ease;
+    background-color: #debf9c;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    align-items: relative;
+    padding-left: 30px;
+    left: 0%;
+    right:100%;
+    width: 100%;
+    font-size: 1.5rem;
+}
+#events{
+    display: flex;
+    flex-direction: row;
+    align-items: relative;
+    justify-content: space-between;
+    padding: 20px;
+}
+#events:hover{
+    transition: 0.4s ease;
+    background-color: #d5c4ec;
+}
+    .text3{
+    display: flex;
+    flex-direction: column;
+    align-items: relative;
+    padding-right: 30px;
+    font-size: 1.5rem;
+    }
+.pic2{
+    height: 50%;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: #371e03;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #371e03;
+    color: #def2d4;
+}
